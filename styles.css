@@ -30,11 +30,6 @@ body {
     width: 800px;
     border-radius: 10px;
     padding: 40px;
-    
-    
-    
-    
-   
 
 }
 
@@ -65,7 +60,7 @@ body {
     width: 350%;
     text-align: center;
     border-radius: 4px;
-    padding: 5px;
+    padding: 10px;
     margin-top: 20px;
     cursor: pointer;
     border: none;
@@ -193,7 +188,8 @@ p {
     padding-right: 30px;
     border-radius: 5px;
     width: 90px;
-    background-color:hsl(183, 100%, 15%);
+    border-color:hsl(185, 41%, 84%);
+    background-color:hsl(185, 41%, 84%);
 }
 #NumPeople {
     font-size: 17px;
@@ -229,13 +225,35 @@ p {
     background-color:hsl(172, 67%, 45%) ;
     border: none;
 }
-#custom:hover {
-    background-color:hsl(172, 67%, 45%) ;
-    border: none
 
-}
 .attribution {
     margin-top: 70px;
 }
+
+
+@media all and (max-width:400px){
+.outline {
+    display: flex;
+    max-width: 400px;
+    flex-wrap: wrap;
+    padding: 10px;
+    
+}
+
+.disp {
+    max-width: 800px;
+    align-items: center;
+    margin-top: 30px;
+}
+.btns {
+    flex-wrap: wrap;
+    max-width: 300px;
+}
+#reset {
+    width: 300%;
+}
+    
+}
+
 
 
