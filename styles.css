@@ -33,10 +33,15 @@ body {
 
 }
 
-.
+
 .btns {
     display: block;
+    
+
 }
+.tipSelector{
+    cursor: pointer;
+} 
 .disp {
     display: flex;
     border: 2px solid black;
