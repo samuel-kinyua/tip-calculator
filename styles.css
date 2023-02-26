@@ -58,7 +58,7 @@ body {
 #logo {
     padding: 30px;
     width: 15vh;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 #reset {
     text-align: center;
@@ -206,7 +206,7 @@ p {
     border-radius: 3px;
     border-color: hsl(185, 41%, 84%);
     padding:3px;
-    border: 0;
+    border: 2px solid hsl(185, 41%, 84%);
     width: 95%;
     background-color:hsl(185, 41%, 84%);
     background-image: url('./images/icon-person.svg');
@@ -214,6 +214,19 @@ p {
     background-size: 12px;
     background-position: left;
     background-position: 15px;
+}
+
+#NumPeople.error input {
+    border-color: rgb(201, 4, 4);
+}
+
+#NumPeople.error {
+    color: red;
+    font-size: 11px;
+    height: 10px;
+    text-align: right;
+    margin-right: 20px;
+    margin-bottom: 10px;
 }
 
 #one:hover{
@@ -271,6 +284,10 @@ p {
 }
 .toPay {
     margin-bottom: 110px;
+}
+
+#logo {
+    margin-top: 50px;
 }
     
 }

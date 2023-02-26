@@ -14,6 +14,7 @@ function calculateTip(tipPercentage){
         totalDisplay.textContent = '$0.00';
         return;
     }
+      
 
     const tipAmount = (tipPercentage * bill / 100)/people;
     tipDisplay.textContent = '$' + tipAmount.toFixed(2);
@@ -22,7 +23,9 @@ function calculateTip(tipPercentage){
     totalDisplay.textContent = '$' + totalAmount.toFixed(2);
 
 
+
 }
+
 
 document.getElementById('one').addEventListener('click', function(){
     calculateTip(5);
