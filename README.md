@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/tip-calculator-app-mS3UKUA02g)
-- Live Site URL: [Add live site URL here](https://thespliter.netlify.app/)
+- Solution URL: [https://www.frontendmentor.io/solutions/tip-calculator-app-mS3UKUA02g]
+- Live Site URL: [https://thespliter.netlify.app/]
 
 ## My process
 I created the markup for this app using the HTML and css to style the page by adding the colors, fonts and created the layout using Flexbox. additionally, I used the media querry to make the page responsive for smaller screens such us mobile phones. finally I used JavaScript and DOM manupulaion to add functionally to the app which enables the calculation and display of the results.
