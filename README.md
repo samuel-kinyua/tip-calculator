@@ -35,7 +35,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/samuel-kinyua/tip-calculator)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/tip-calculator-app-mS3UKUA02g)
 - Live Site URL: [Add live site URL here](https://thespliter.netlify.app/)
 
 ## My process
